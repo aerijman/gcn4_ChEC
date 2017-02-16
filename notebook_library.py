@@ -31,7 +31,7 @@ def open_sgd(promoter_length):
 
 	# -1 to Creek and 1 to Watson
 	sgd[sgd['W/C']=='C'].loc[:,'W/C']=-1
-	sgd.loc[sgd['W/C']=='W'][:,'W/C']=1
+	sgd[sgd['W/C']=='W'].loc[:,'W/C']=1
 
 	# create the column 'start promoter' and replace negative numbers \
 	# with 0 (promoters that are <600bp form the start of the chromosome)
