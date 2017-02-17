@@ -24,26 +24,26 @@ def open_sgd(promoter_length):
 	sgd.columns = ['n0','ORF_or_what','n1','locus','gene','n2','n3','n4'\
 			      ,'chromosome','start','stop','W/C','n5','n6','n7','n8']
 	sgd = sgd[sgd['ORF_or_what']=='ORF']
-
+    
 	# get rid of non-informative columns and 2-micron chromosome
 	sgd = sgd.drop(['ORF_or_what','n0','n1','n2','n3','n4','n5','n6','n7','n8'],1).set_index('locus')
 	sgd = sgd.ix[sgd.chromosome!='2-micron']
 
 	# -1 to Creek and 1 to Watson
-	sgd[sgd['W/C']=='C'].loc[:,'W/C']=-1
-	sgd[sgd['W/C']=='W'].loc[:,'W/C']=1
-
+	sgd.loc[sgd['W/C']=='C', 'W/C']=-1
+	sgd.loc[sgd['W/C']=='W', 'W/C']=1
+    
 	# create the column 'start promoter' and replace negative numbers \
 	# with 0 (promoters that are <600bp form the start of the chromosome)
 	sgd['start_promoter'] = sgd['start']-(sgd['W/C']*promoter_length)
-	sgd.loc[:,'start_promoter'][sgd['start_promoter']<0]=0
+	sgd.loc[sgd['start_promoter']<0,'start_promoter']=0
 
 	# create the column 'start promoter' and replace negative numbers \
 	# with 0 (promoters that are <600bp form the start of the chromosome)
 	sgd['promoter_median'] = (sgd['start'] + sgd['start_promoter']) / 2
-	#sgd = sgd.sort_values(['chromosome','promoter_median'])
-	#sgd.reset_index(inplace=True)
-
+	sgd = sgd.sort_values(['chromosome','promoter_median'])
+	sgd.reset_index(inplace=True)
+    
 	return sgd
 
 
