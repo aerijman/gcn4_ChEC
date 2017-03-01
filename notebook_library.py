@@ -207,5 +207,30 @@ def peakdet(v, delta, x = None):
 
     return array(maxtab), array(mintab)
 
-        
+def getFromGit(link):
+
+	from html2text import html2text
+	import requests
+	import numpy as np
+	import pandas as pd
+
+	f = requests.get(link)
+
+	matriz=[]
+	for i in f.text.split('\n'):
+	    cols=[]
+	    for j in i.split(','):
+	        cols.append(j.encode('ascii','replace'))
+	    matriz.append(cols)
+
+	df = pd.DataFrame(matriz)
+
+	df.columns =  np.array(df.loc[0])
+	df = df.ix[1:,1:]
+	df.set_index('id', inplace=True)
+	#df.apply(pd.to_numeric)
+	print " DO df.apply(pd.to_numeric) or a slice of df... \n"
+	
+	return df
+	
         
