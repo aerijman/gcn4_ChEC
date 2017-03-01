@@ -1,0 +1,1000 @@
+ 1005  exit
+ 1006  hostname server.mydomain.com
+ 1007  sudo hostname server.mydomain.com
+ 1008  hostname server.mydomain.com
+ 1009  domainname
+ 1010  nisdomainname
+ 1011  domainname ariel
+ 1012  sudo domainname ariel
+ 1013  getdomainname
+ 1014  exit
+ 1015  ftp
+ 1016  ls -lt
+ 1017  cd Documents/gcn4_ChEC/
+ 1018  ls -lt
+ 1019  exit
+ 1020  ls -lt
+ 1021  top
+ 1022  ls -lt
+ 1023  rm Notebook.py
+ 1024  ls -lt
+ 1025  exit
+ 1026  exitx
+ 1027  exit
+ 1028  cd Documents/gcn4_ChEC/
+ 1029  ls -lt
+ 1030  ipython notebook 
+ 1031  ssh aerijman@rhino
+ 1032  exit
+ 1033  ssh aerijman@rhino
+ 1034  exit
+ 1035  ipython notebook
+ 1036  exit
+ 1037  ssh aerijman@rhino
+ 1038  exit
+ 1039  ipython notebook
+ 1040  ssh aerijman@rhino
+ 1041  exit
+ 1042  ssh aerijman@rhino
+ 1043  exit
+ 1044  ipython noteboook
+ 1045  ipython notebook
+ 1046  exit
+ 1047  ssh aerijman@rhino
+ 1048  ls -lt
+ 1049  ipython notebook
+ 1050  exit
+ 1051  cd /media/ariel/USB\ DISK/ARIEL______LAB/TATA/
+ 1052  ls-lt
+ 1053  ls -lt
+ 1054  python Gene_NGS_Plot.py ~/Documents/gcn4_ChEC/extremes_14 ~/Documents/gcn4_ChEC/extremes_14.wig ARG3
+ 1055  python Gene_NGS_Plot.py ~/Documents/gcn4_ChEC/extremes_14.wig ~/Documents/gcn4_ChEC/extremes_14.wig ARG3
+ 1056  python Gene_NGS_Plot.py ~/Documents/gcn4_ChEC/extremes_14.wig ~/Documents/gcn4_ChEC/extremes_14.wig ILV6
+ 1057  python Gene_NGS_Plot.py lib/SGD.tsv ~/Documents/gcn4_ChEC/extremes_14.wig ~/Documents/gcn4_ChEC/extremes_14.wig ILV6
+ 1058  python Gene_NGS_Plot.py lib/SGD.tsv ~/Documents/gcn4_ChEC/extremes_14.wig ~/Documents/gcn4_ChEC/extremes_14.wig ARG3
+ 1059  python Gene_NGS_Plot.py lib/SGD.tsv ~/Documents/gcn4_ChEC/extremes_14.wig ~/Documents/gcn4_ChEC/extremes_14.wig HIS4
+ 1060  exit
+ 1061  ssh aerijman@rhino
+ 1062  exit
+ 1063  ssh aerijman@rhino
+ 1064  exit
+ 1065  ssh aerijman@rhino
+ 1066  exit
+ 1067  cd Documents/
+ 1068  cd gcn4_ChEC/
+ 1069  ipython notebook
+ 1070  ssh aerijman@rhino
+ 1071  exit
+ 1072  pip install vagrant
+ 1073  sudo apt-get install vagrant
+ 1074  sudo apt-get install virtualbox
+ 1075  lsb_release-a
+ 1076  lsb_release -a
+ 1077  wget -O fsnd-virtual-machine.zip "https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58488015_fsnd-virtual-machine/fsnd-virtual-machine.zip"
+ 1078  ls -lt
+ 1079  mv fsnd-virtual-machine.zip Downloads/
+ 1080  cd Downloads/
+ 1081  cd ..
+ 1082  cd Downloads/
+ 1083  ls -lt
+ 1084  unzip fsnd-virtual-machine.zip 
+ 1085  ls -lt
+ 1086  cd FSND-Virtual-Machine/
+ 1087  ls -lt
+ 1088  cd vagrant/
+ 1089  vagrant up
+ 1090  vagrant ssh
+ 1091  nm-tool
+ 1092  nm -tool
+ 1093  nmcli -t 
+ 1094  nmcli -t -f IP4.DNS device show eth0
+ 1095  ls -lt
+ 1096  which apache
+ 1097  which apache2
+ 1098  which httpd
+ 1099  sudo apt-get update
+ 1100  sudo apt-get install apache2
+ 1101  sudo service apache2 restart
+ 1102  more /etc/apache2/ports.conf 
+ 1103  apt-cache search php5-
+ 1104  sudo apt-get install php5 libapache2-mod-php5-mcrypt
+ 1105  sudo apt-get install php5-sqlite
+ 1106  vagrant up
+ 1107  cd Downloads/
+ 1108  cd FSND-Virtual-Machine/
+ 1109  ls -lt
+ 1110  cd vagrant/
+ 1111  ls -lt
+ 1112  vagrant up
+ 1113  vagrant ssh
+ 1114  ls -lt
+ 1115  cd Downloads/
+ 1116  ls -lt
+ 1117  cd FSND-Virtual-Machine/
+ 1118  ls -lt
+ 1119  cd vagrant/
+ 1120  ls -lt
+ 1121  vagrant up
+ 1122  ls -lt
+ 1123  cd ../vagrant/forum/
+ 1124  ls -lt
+ 1125  which ssh
+ 1126  more forum.py 
+ 1127  python
+ 1128  exit
+ 1129  python
+ 1130  exit
+ 1131  ssh aerijman@rhino
+ 1132  ipython notebook
+ 1133  enable remote connections
+ 1134  more Documents/gcn4_ChEC/ACGT_genome.csv 
+ 1135  ls -lt
+ 1136  git --version
+ 1137  sudo add-apt-repository ppa:git-core/ppa -y
+ 1138  sudo apt-get update
+ 1139  sudo apt-get install git -y
+ 1140  git
+ 1141  cd Documents/gcn4_ChEC/
+ 1142  git config --global user.name aerijman
+ 1143  git config --global user.email aerijman@fredhutch.org
+ 1144  cd ..
+ 1145  git init gcn4_ChEC
+ 1146  cd gcn4_ChEC/
+ 1147  ls -lt
+ 1148  nano README
+ 1149  git add README
+ 1150  git add ACGT_genome.csv
+ 1151  git commit -m "edit in README"
+ 1152  git remote add origin https://github.com/aerijman/gcn4_ChEC.git
+ 1153  git push origin master
+ 1154  ls -lt
+ 1155  git add Notebook.ipynb notebook_library.py Untitled.ipynb 
+ 1156  git commit -m "edit in README"
+ 1157  git push origin master
+ 1158  history
+ 1159  more wig_totals.csv 
+ 1160  git add *
+ 1161  git remove fragments_*
+ 1162  git rm fragments_*
+ 1163  history
+ 1164  git push origin master
+ 1165  git commit -m "agrege TODOgit push origin master!"
+ 1166  ls -lt
+ 1167  more README 
+ 1168  ls -lt
+ 1169  history
+ 1170  cd ..
+ 1171  ls -lt
+ 1172  cd gcn4_ChEC/
+ 1173  ls -lt
+ 1174  mv fragments_* ..
+ 1175  ls -lt
+ 1176  git add *
+ 1177  git commit -m "agrege TODOgit push origin master!"
+ 1178  git push origin master
+ 1179  git add *
+ 1180  git commit -m "agrege TODOgit push origin master!"
+ 1181  git push origin master
+ 1182  git push -f
+ 1183  git push -f origin master
+ 1184  sudo apt-get install --reinstall ttf-mscorefonts-installer  
+ 1185  echo "GGTGCTAATTATGGCATTGATTGGGGCGGTAAAACATTCAAAGTC" | tr "[ACTG]" "[TGAC]" | rev
+ 1186  ls -lt
+ 1187  grep "CACAATGCTCCATAACTCTTCAGGCCTTAAACGACCATCCATG" Documents/scripts/FindPromoters/libs/chromosomes/chr1.fa 
+ 1188  grep "CACAATGCTCCATAACTCTTCAGGCCTTAAACGACCATCCATG" Documents/scripts/FindPromoters/libs/chromosomes/chr*
+ 1189  more Documents/scripts/FindPromoters/libs/chromosomes/chr1.fa 
+ 1190  tr -d '\n' Documents/scripts/FindPromoters/libs/chromosomes/chr1.fa > a
+ 1191  tr -d '\n' Documents/scripts/FindPromoters/libs/chromosomes/chr1.fa 
+ 1192  tr Documents/scripts/FindPromoters/libs/chromosomes/chr1.fa -d '\n'
+ 1193  tr Documents/scripts/FindPromoters/libs/chromosomes/chr1.fa -d 
+ 1194  tr -d '\n' Documents/scripts/FindPromoters/libs/chromosomes/chr1.fa 
+ 1195  echo Documents/scripts/FindPromoters/libs/chromosomes/chr1.fa 
+ 1196  cat Documents/scripts/FindPromoters/libs/chromosomes/chr1.fa 
+ 1197  cat Documents/scripts/FindPromoters/libs/chromosomes/chr1.fa | tr -d '\n'
+ 1198  cat Documents/scripts/FindPromoters/libs/chromosomes/chr1.fa | tr -d '\n' > a
+ 1199  grep "CACAATGCTCCATAACTCTTCAGGCCTTAAACGACCATCCATG" a
+ 1200  more a
+ 1201  grep "AAAACTGAAAACCAAGCCTGGTCACCCAAAGACGGTCA" a
+ 1202  more a
+ 1203  rm a
+ 1204  cat Documents/scripts/FindPromoters/libs/chromosomes/chr* tr -d '\n' > a
+ 1205  cat Documents/scripts/FindPromoters/libs/chromosomes/chr* | tr -d '\n' > a
+ 1206  more a
+ 1207  grep "TAAAAATGCCGGTACGAGCTGAAAGAAGTATTTTTTGCTTCT" a
+ 1208  grep "AAA" a
+ 1209  echo "TAAAAATGCCGGTACGAGCTGAAAGAAGTATTTTTTGCTTCT" | tr "[ACTG]" "[TGAC]" | rev | grep a
+ 1210  echo "TAAAAATGCCGGTACGAGCTGAAAGAAGTATTTTTTGCTTCT" | tr "[ACTG]" "[TGAC]" | rev | 
+ 1211  echo "TAAAAATGCCGGTACGAGCTGAAAGAAGTATTTTTTGCTTCT" | tr "[ACTG]" "[TGAC]" | rev 
+ 1212  grep "AGAAGCAAAAAATACTTCTTTCAGCTCGTACCGGCATTTTTA" a
+ 1213  echo "CACAATGCTCCATAACTCTTCAGGCCTTAAACGACCATCCATG" tr "[ACTG]" "[TGAC]" | rev | grep a
+ 1214  echo "CACAATGCTCCATAACTCTTCAGGCCTTAAACGACCATCCATG" tr "[ACTG]" "[TGAC]" | rev 
+ 1215  echo "CACAATGCTCCATAACTCTTCAGGCCTTAAACGACCATCCATG"| tr "[ACTG]" "[TGAC]" | rev 
+ 1216  echo "CACAATGCTCCATAACTCTTCAGGCCTTAAACGACCATCCATG"| tr "[ACTG]" "[TGAC]" | rev | grep a
+ 1217  grep "CATGGATGGTCGTTTAAGGCCTGAAGAGTTATGGAGCATTGTG" a
+ 1218  grep -c "CATGGATGGTCGTTTAAGGCCTGAAGAGTTATGGAGCATTGTG" a
+ 1219  agrep
+ 1220  agrep -B "CATGGATGGTCGTTTAAGGCCTGAAGAGTTATGGAGCATTGTG" a
+ 1221  agrep -B "CATGGATGGTCGTTTAAGGCCTGAAGAGTTA" a
+ 1222  agrep -B "CATGGATGGTCGTTTAAGGCCTGAAGA" a
+ 1223  cat Documents/scripts/FindPromoters/libs/chromosomes/chr1.fa | tr -d '\n' > a
+ 1224  agrep -B "CATGGATGGTCGTTTAAGGCCTGAAGA" a
+ 1225  agrep
+ 1226  agrep -B -n "CATGGATGGTCGTTTAAGGCCTGAAGA" a
+ 1227  agrep
+ 1228  agrep -B -d "CATGGATGGTCGTTTAAGGCCTGAAGA" a
+ 1229  cat Documents/scripts/FindPromoters/libs/chromosomes/chr1.fa | tr -d '\n' > a
+ 1230  echo "CACAATGCTCCATAACTCTTCAGGCCTTAAACGACCATCCATG" | tr"[ATCG]" "[TAGC]" | rev
+ 1231  grep "CATGGATGGTCGTTTAAGGCCTGAAGAGTTATGGAGCATTGTG" a -c
+ 1232  echo "GGTGCTAATTATGGCATTGATTGGGGCGGTAAAACATTCAAAGTC" | tr "[ATCG]" "[TAGC]" | rev
+ 1233  grep "GACTTTGAATGTTTTACCGCCCCAATCAATGCCATAATTAGCACC" a -c
+ 1234  grep "GACTTTGAATGTTTTACCGCCCCAATCAATGCCATAATTAGCACT" a -c
+ 1235  echo "GTTTAAACGAGCTCGAATTCATCGACATTGATTGGGGCGGTAAAACATTCAAAGTCAATGAAAAGGATGC" | tr "[ATCG]" "[TAGC]" | rev
+ 1236  wget http://httpredir.debian.org/debian/pool/contrib/m/msttcorefonts/ttf-mscorefonts-installer_3.6_all.deb
+ 1237  sudo dpkg -i ttf-mscorefonts-installer_3.6_all.deb
+ 1238  ls -lt
+ 1239  rm a
+ 1240  sudo apt-get update
+ 1241  /usr/share/xsessions/
+ 1242  ls -lt /usr/share/xsessions/
+ 1243  more /usr/share/xsessions/ubuntu.desktop 
+ 1244  nano ubuntu.chrome-remote-desktop-session
+ 1245  more /usr/share/xsessions/ubuntu.desktop 
+ 1246  nano ubuntu.chrome-remote-desktop-session
+ 1247  mv ubuntu.chrome-remote-desktop-session .chrome-remote-desktop-session
+ 1248  ls -lt
+ 1249  ls -lt .chrome-remote-desktop-session 
+ 1250  ssh aerijman@rhino
+ 1251  ls -lt
+ 1252  cd Documents/gcn4_ChEC/
+ 1253  ls -lt
+ 1254  history
+ 1255  ls -lt
+ 1256  git remote add upstream https://github.com/aerijman/gcn4_ChEC
+ 1257  git fetch upstream
+ 1258  git merge upstream/master
+ 1259  git push origin master
+ 1260  ls -lt
+ 1261  git remote add upstream https://github.com/aerijman/gcn4_ChEC
+ 1262  git fetch upstream
+ 1263  git merge upstream/master
+ 1264  git push origin master
+ 1265  git remote add upstream https://github.com/aerijman/gcn4_ChEC
+ 1266  git fetch upstream
+ 1267  git merge upstream/master
+ 1268  git commit
+ 1269  git merge upstream/master
+ 1270  git commit master
+ 1271  git commit upstream
+ 1272  git commit
+ 1273  git remote add upstream https://github.com/aerijman/gcn4_ChEC
+ 1274  git getch upstream
+ 1275  git fetch upstream
+ 1276  git merge upstream/master
+ 1277  git remote add upstream https://github.com/aerijman/gcn4_ChEC
+ 1278  get fetch upstream
+ 1279  git fetch upstream
+ 1280  git commit
+ 1281  git merge upstream/master
+ 1282  get push origin master
+ 1283  git push origin master
+ 1284  ls -lt
+ 1285  ls -lt sag*
+ 1286  ls -lt
+ 1287  git remote add upstream https://github.com/aerijman/gcn4_ChEC
+ 1288  git merge
+ 1289  git merge master
+ 1290  ls -lt
+ 1291  git remote
+ 1292  git remote -v
+ 1293  git fetch origin
+ 1294  git fetch origin/master
+ 1295  ls -lt
+ 1296  git remote -v
+ 1297  git fetch upstream
+ 1298  ls -lt
+ 1299  git branch -r
+ 1300  git branch -r origin/master
+ 1301  git merge origin/master
+ 1302  git origin commit
+ 1303  git commit origin
+ 1304  git fetch origin
+ 1305  git checkout master git log origin/master
+ 1306  git merge origin/master
+ 1307  ls -lt
+ 1308  ls -lt sa*
+ 1309  git remote -v
+ 1310  git pull upstream
+ 1311  git pull origin
+ 1312  git pull origin/master
+ 1313  git remote add upstream https://github.com/aerijman/gcn4_ChEC.git
+ 1314  get fetch upstream
+ 1315  git fetch upstream
+ 1316  git merge upstream/master
+ 1317  git commit -m "miercoles"
+ 1318  git stash
+ 1319  git stash pop
+ 1320  git reset --hard
+ 1321  ls -lt
+ 1322  history
+ 1323  git remote -v
+ 1324  git remote add upstream https://github.com/aerijman/gcn4_ChEC.git
+ 1325  get fetch upstream
+ 1326  git fetch upstream
+ 1327  git merge upstream/master
+ 1328  ls -lt
+ 1329  ls -lt saga_vs_tfiid.csv 
+ 1330  ls -lt
+ 1331  xkill
+ 1332  cd ~/Documents/scripts/blastDB/
+ 1333  blast
+ 1334  ls -l
+ 1335  ls -lt
+ 1336  more readme.txt 
+ 1337  blastp
+ 1338  nano pLH357B.fasta
+ 1339  more probable_GFP2.fasta 
+ 1340  blastp -db nr -query pLH357B.fasta > pLH357B.output
+ 1341  more pLH357B.output \
+ 1342  more pLH357B.output 
+ 1343  nano pLH357B_2.fasta
+ 1344  blastp -db nr -query pLH357B_2.fasta > pLH357B_2.output
+ 1345  history
+ 1346  cd ../
+ 1347  cd ~/Documents/gcn4_ChEC/
+ 1348  ls -lt
+ 1349  ssh aerijman@rhino
+ 1350  cd Documents/gcn4_ChEC/
+ 1351  git add *
+ 1352  git commit -m "agrege TODOgit push origin master!"
+ 1353  git push origin master
+ 1354  git push -f origin master
+ 1355  hecho "CGGATCATATGAAACAGCACG" | tr "[ATCG]" "[TAGC]" | rev
+ 1356  echo "CGGATCATATGAAACAGCACG" | tr "[ATCG]" "[TAGC]" | rev
+ 1357  echo "TAAACGAGCTCGAATTCATCGACTCAGGTATAGCATGAGGTCGCTCTTATTG" | tr "[ATCG]" "[TAGC]" | rev
+ 1358  blast
+ 1359  ssh aerijman@rhino
+ 1360  perl
+ 1361  perl --help
+ 1362  ls -lt
+ 1363  nano Sebastian.pl
+ 1364  perl Sebastian.pl ACGT_genome.csv 
+ 1365  nano Sebastian.pl
+ 1366  perl Sebastian.pl ACGT_genome.csv 
+ 1367  more ACGT_genome.csv 
+ 1368  nano Sebastian.pl
+ 1369  more ACGT_genome.csv 
+ 1370  perl Sebastian.pl ACGT_genome.csv 
+ 1371  more ACGT_genome.csv 
+ 1372  nano Sebastian.pl
+ 1373  perl Sebastian.pl ACGT_genome.csv 
+ 1374  nano Sebastian.pl
+ 1375  perl Sebastian.pl ACGT_genome.csv 
+ 1376  nano Sebastian.pl
+ 1377  perl Sebastian.pl ACGT_genome.csv 
+ 1378  nano Sebastian.pl
+ 1379  perl Sebastian.pl ACGT_genome.csv 
+ 1380  nano Sebastian.pl
+ 1381  perl Sebastian.pl ACGT_genome.csv 
+ 1382  nano Sebastian.pl
+ 1383  perl Sebastian.pl ACGT_genome.csv 
+ 1384  nano Sebastian.pl
+ 1385  perl Sebastian.pl ACGT_genome.csv 
+ 1386  nano Sebastian.pl
+ 1387  perl Sebastian.pl ACGT_genome.csv 
+ 1388  nano Sebastian.pl
+ 1389  perl Sebastian.pl ACGT_genome.csv 
+ 1390  nano Sebastian.pl
+ 1391  perl Sebastian.pl ACGT_genome.csv 
+ 1392  nano Sebastian.pl
+ 1393  perl Sebastian.pl ACGT_genome.csv 
+ 1394  nano Sebastian.pl
+ 1395  perl Sebastian.pl ACGT_genome.csv 
+ 1396  nano Sebastian.pl
+ 1397  perl Sebastian.pl ACGT_genome.csv 
+ 1398  nano Sebastian.pl
+ 1399  perl Sebastian.pl ACGT_genome.csv 
+ 1400  nano Sebastian.pl
+ 1401  perl Sebastian.pl ACGT_genome.csv 
+ 1402  nano Sebastian.pl
+ 1403  perl Sebastian.pl ACGT_genome.csv 
+ 1404  nano Sebastian.pl
+ 1405  perl Sebastian.pl ACGT_genome.csv 
+ 1406  nano Sebastian.pl
+ 1407  perl Sebastian.pl ACGT_genome.csv 
+ 1408  nano Sebastian.pl
+ 1409  perl Sebastian.pl ACGT_genome.csv 
+ 1410  nano Sebastian.pl
+ 1411  perl Sebastian.pl ACGT_genome.csv 
+ 1412  nano Sebastian.pl
+ 1413  perl Sebastian.pl ACGT_genome.csv 
+ 1414  nano Sebastian.pl
+ 1415  perl Sebastian.pl ACGT_genome.csv 
+ 1416  nano Sebastian.pl
+ 1417  perl Sebastian.pl ACGT_genome.csv 
+ 1418  nano Sebastian.pl
+ 1419  perl Sebastian.pl ACGT_genome.csv 
+ 1420  nano Sebastian.pl
+ 1421  perl Sebastian.pl ACGT_genome.csv 
+ 1422  nano Sebastian.pl
+ 1423  more Sebastian.pl 
+ 1424  nano Sebastian.pl 
+ 1425  ls -lt
+ 1426  nano
+ 1427  nano Sebastian.pl 
+ 1428  top
+ 1429  kill PI5474
+ 1430  kill 5474
+ 1431  nano Sebastian.pl 
+ 1432  kill PID5474
+ 1433  kill ID5474
+ 1434  kill job 5474
+ 1435  kill 5474
+ 1436  vi Sebastian.pl 
+ 1437  ls -lt
+ 1438  mv Sebastian.pl Sebastia.pl
+ 1439  nanop Sebastia.pl 
+ 1440  nano Sebastia.pl 
+ 1441  mv Sebastia.pl Sebastian.pl 
+ 1442  perl Sebastian.pl ACGT_genome.csv 
+ 1443  nano Sebastian.pl 
+ 1444  perl Sebastian.pl ACGT_genome.csv 
+ 1445  nano Sebastian.pl 
+ 1446  perl Sebastian.pl ACGT_genome.csv 
+ 1447  nano Sebastian.pl 
+ 1448  perl Sebastian.pl ACGT_genome.csv 
+ 1449  nano Sebastian.pl 
+ 1450  perl Sebastian.pl ACGT_genome.csv 
+ 1451  nano Sebastian.pl 
+ 1452  perl Sebastian.pl ACGT_genome.csv 
+ 1453  nano Sebastian.pl 
+ 1454  perl Sebastian.pl ACGT_genome.csv 
+ 1455  nano Sebastian.pl 
+ 1456  perl Sebastian.pl ACGT_genome.csv 
+ 1457  nano Sebastian.pl 
+ 1458  perl Sebastian.pl ACGT_genome.csv 
+ 1459  nano Sebastian.pl 
+ 1460  perl Sebastian.pl ACGT_genome.csv 
+ 1461  nano Sebastian.pl 
+ 1462  perl Sebastian.pl ACGT_genome.csv 
+ 1463  nano Sebastian.pl 
+ 1464  perl Sebastian.pl ACGT_genome.csv 
+ 1465  nano Sebastian.pl 
+ 1466  perl Sebastian.pl ACGT_genome.csv 
+ 1467  nano Sebastian.pl 
+ 1468  perl Sebastian.pl ACGT_genome.csv 
+ 1469  nano Sebastian.pl 
+ 1470  perl Sebastian.pl ACGT_genome.csv 
+ 1471  nano Sebastian.pl 
+ 1472  perl Sebastian.pl ACGT_genome.csv 
+ 1473  nano Sebastian.pl 
+ 1474  perl Sebastian.pl ACGT_genome.csv 
+ 1475  nano Sebastian.pl 
+ 1476  perl Sebastian.pl ACGT_genome.csv 
+ 1477  nano Sebastian.pl 
+ 1478  perl Sebastian.pl ACGT_genome.csv 
+ 1479  nano Sebastian.pl 
+ 1480  perl Sebastian.pl ACGT_genome.csv 
+ 1481  nano Sebastian.pl 
+ 1482  perl Sebastian.pl ACGT_genome.csv 
+ 1483  nano Sebastian.pl 
+ 1484  perl Sebastian.pl ACGT_genome.csv 
+ 1485  nano Sebastian.pl 
+ 1486  perl Sebastian.pl ACGT_genome.csv 
+ 1487  nano Sebastian.pl 
+ 1488  nano test.pl
+ 1489  perl test.pl 
+ 1490  nano test.pl
+ 1491  perl test.pl 
+ 1492  nano test.pl
+ 1493  perl test.pl 
+ 1494  nano test.pl
+ 1495  perl test.pl 
+ 1496  nano test.pl
+ 1497  perl test.pl 
+ 1498  nano test.pl
+ 1499  rm test.pl 
+ 1500  nano Sebastian.pl 
+ 1501  perl Sebastian.pl 
+ 1502  perl Sebastian.pl ACGT_genome.csv 
+ 1503  nano Sebastian.pl 
+ 1504  perl Sebastian.pl ACGT_genome.csv 
+ 1505  nano Sebastian.pl 
+ 1506  perl Sebastian.pl ACGT_genome.csv 
+ 1507  nano Sebastian.pl 
+ 1508  perl Sebastian.pl ACGT_genome.csv 
+ 1509  nano Sebastian.pl 
+ 1510  perl Sebastian.pl ACGT_genome.csv 
+ 1511  nano Sebastian.pl 
+ 1512  perl Sebastian.pl ACGT_genome.csv 
+ 1513  nano Sebastian.pl 
+ 1514  perl Sebastian.pl ACGT_genome.csv 
+ 1515  nano Sebastian.pl 
+ 1516  perl Sebastian.pl ACGT_genome.csv 
+ 1517  nano Sebastian.pl 
+ 1518  perl Sebastian.pl ACGT_genome.csv 
+ 1519  nano Sebastian.pl 
+ 1520  perl Sebastian.pl ACGT_genome.csv 
+ 1521  nano Sebastian.pl 
+ 1522  perl Sebastian.pl ACGT_genome.csv 
+ 1523  nano Sebastian.pl 
+ 1524  perl Sebastian.pl ACGT_genome.csv 
+ 1525  nano Sebastian.pl 
+ 1526  perl Sebastian.pl ACGT_genome.csv 
+ 1527  nano Sebastian.pl 
+ 1528  perl Sebastian.pl ACGT_genome.csv 
+ 1529  nano Sebastian.pl 
+ 1530  perl Sebastian.pl ACGT_genome.csv 
+ 1531  nano Sebastian.pl 
+ 1532  perl Sebastian.pl ACGT_genome.csv 
+ 1533  nano Sebastian.pl 
+ 1534  perl Sebastian.pl ACGT_genome.csv 
+ 1535  nano Sebastian.pl 
+ 1536  perl Sebastian.pl ACGT_genome.csv 
+ 1537  nano Sebastian.pl 
+ 1538  perl Sebastian.pl ACGT_genome.csv 
+ 1539  nano Sebastian.pl 
+ 1540  perl Sebastian.pl ACGT_genome.csv 
+ 1541  nano Sebastian.pl 
+ 1542  perl Sebastian.pl ACGT_genome.csv 
+ 1543  nano Sebastian.pl 
+ 1544  perl Sebastian.pl ACGT_genome.csv 
+ 1545  nano Sebastian.pl 
+ 1546  perl Sebastian.pl ACGT_genome.csv 
+ 1547  nano Sebastian.pl 
+ 1548  perl Sebastian.pl ACGT_genome.csv 
+ 1549  nano Sebastian.pl 
+ 1550  perl Sebastian.pl ACGT_genome.csv 
+ 1551  nano Sebastian.pl 
+ 1552  perl Sebastian.pl ACGT_genome.csv 
+ 1553  nano Sebastian.pl 
+ 1554  perl Sebastian.pl ACGT_genome.csv 
+ 1555  nano Sebastian.pl 
+ 1556  perl Sebastian.pl ACGT_genome.csv 
+ 1557  nano Sebastian.pl 
+ 1558  perl Sebastian.pl ACGT_genome.csv 
+ 1559  nano Sebastian.pl 
+ 1560  perl Sebastian.pl ACGT_genome.csv 
+ 1561  nano Sebastian.pl 
+ 1562  perl Sebastian.pl ACGT_genome.csv 
+ 1563  nano Sebastian.pl 
+ 1564  perl Sebastian.pl ACGT_genome.csv 
+ 1565  nano Sebastian.pl 
+ 1566  perl Sebastian.pl ACGT_genome.csv 
+ 1567  nano Sebastian.pl 
+ 1568  perl Sebastian.pl ACGT_genome.csv 
+ 1569  nano Sebastian.pl 
+ 1570  perl Sebastian.pl ACGT_genome.csv 
+ 1571  nano Sebastian.pl 
+ 1572  perl Sebastian.pl ACGT_genome.csv 
+ 1573  nano Sebastian.pl 
+ 1574  perl Sebastian.pl ACGT_genome.csv 
+ 1575  nano Sebastian.pl 
+ 1576  perl Sebastian.pl ACGT_genome.csv 
+ 1577  nano Sebastian.pl 
+ 1578  perl Sebastian.pl ACGT_genome.csv 
+ 1579  nano Sebastian.pl 
+ 1580  perl Sebastian.pl ACGT_genome.csv 
+ 1581  nano Sebastian.pl 
+ 1582  perl Sebastian.pl ACGT_genome.csv 
+ 1583  nano Sebastian.pl 
+ 1584  perl Sebastian.pl ACGT_genome.csv 
+ 1585  nano Sebastian.pl 
+ 1586  perl Sebastian.pl ACGT_genome.csv 
+ 1587  nano Sebastian.pl 
+ 1588  perl Sebastian.pl ACGT_genome.csv 
+ 1589  nano Sebastian.pl 
+ 1590  perl Sebastian.pl ACGT_genome.csv 
+ 1591  nano Sebastian.pl 
+ 1592  perl Sebastian.pl ACGT_genome.csv 
+ 1593  nano Sebastian.pl 
+ 1594  perl Sebastian.pl ACGT_genome.csv 
+ 1595  nano Sebastian.pl 
+ 1596  perl Sebastian.pl ACGT_genome.csv 
+ 1597  nano Sebastian.pl 
+ 1598  perl Sebastian.pl ACGT_genome.csv 
+ 1599  nano Sebastian.pl 
+ 1600  nano test.pl
+ 1601  perl test.pl 
+ 1602  nano test.pl
+ 1603  perl test.pl 
+ 1604  nano test.pl
+ 1605  perl test.pl 
+ 1606  nano test.pl
+ 1607  perl test.pl 
+ 1608  nano test.pl
+ 1609  perl test.pl ACGT_genome.csv 
+ 1610  nano test.pl
+ 1611  perl test.pl ACGT_genome.csv 
+ 1612  nano test.pl
+ 1613  perl test.pl ACGT_genome.csv 
+ 1614  nano test.pl
+ 1615  rm test.pl 
+ 1616  nano Sebastian.pl 
+ 1617  perl Sebastian.pl ACGT_genome.csv 
+ 1618  nano Sebastian.pl 
+ 1619  perl Sebastian.pl ACGT_genome.csv 
+ 1620  nano Sebastian.pl 
+ 1621  perl Sebastian.pl ACGT_genome.csv 
+ 1622  nano Sebastian.pl 
+ 1623  perl Sebastian.pl ACGT_genome.csv 
+ 1624  nano Sebastian.pl 
+ 1625  perl Sebastian.pl ACGT_genome.csv 
+ 1626  nano Sebastian.pl 
+ 1627  perl Sebastian.pl ACGT_genome.csv 
+ 1628  nano Sebastian.pl 
+ 1629  perl Sebastian.pl ACGT_genome.csv 
+ 1630  nano Sebastian.pl 
+ 1631  perl Sebastian.pl ACGT_genome.csv 
+ 1632  nano Sebastian.pl 
+ 1633  perl Sebastian.pl ACGT_genome.csv 
+ 1634  nano Sebastian.pl 
+ 1635  perl Sebastian.pl ACGT_genome.csv 
+ 1636  nano Sebastian.pl 
+ 1637  perl Sebastian.pl ACGT_genome.csv 
+ 1638  nano Sebastian.pl 
+ 1639  perl Sebastian.pl ACGT_genome.csv 
+ 1640  nano Sebastian.pl 
+ 1641  perl Sebastian.pl ACGT_genome.csv 
+ 1642  nano Sebastian.pl 
+ 1643  perl Sebastian.pl ACGT_genome.csv 
+ 1644  nano Sebastian.pl 
+ 1645  perl Sebastian.pl ACGT_genome.csv 
+ 1646  nano Sebastian.pl 
+ 1647  perl Sebastian.pl ACGT_genome.csv 
+ 1648  nano Sebastian.pl 
+ 1649  perl Sebastian.pl ACGT_genome.csv 
+ 1650  nano Sebastian.pl 
+ 1651  perl Sebastian.pl ACGT_genome.csv 
+ 1652  nano Sebastian.pl 
+ 1653  perl Sebastian.pl ACGT_genome.csv 
+ 1654  nano Sebastian.pl 
+ 1655  perl Sebastian.pl ACGT_genome.csv 
+ 1656  nano Sebastian.pl 
+ 1657  perl Sebastian.pl ACGT_genome.csv 
+ 1658  nano Sebastian.pl 
+ 1659  perl Sebastian.pl ACGT_genome.csv 
+ 1660  nano Sebastian.pl 
+ 1661  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1662  nano Sebastian.pl 
+ 1663  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1664  nano Sebastian.pl 
+ 1665  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1666  nano Sebastian.pl 
+ 1667  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1668  nano Sebastian.pl 
+ 1669  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1670  nano Sebastian.pl 
+ 1671  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1672  nano Sebastian.pl 
+ 1673  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1674  nano Sebastian.pl 
+ 1675  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1676  nano Sebastian.pl 
+ 1677  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1678  nano Sebastian.pl 
+ 1679  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1680  nano Sebastian.pl 
+ 1681  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1682  nano Sebastian.pl 
+ 1683  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1684  nano Sebastian.pl 
+ 1685  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1686  nano Sebastian.pl 
+ 1687  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1688  nano Sebastian.pl 
+ 1689  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1690  nano Sebastian.pl 
+ 1691  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1692  nano Sebastian.pl 
+ 1693  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1694  nano Sebastian.pl 
+ 1695  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1696  nano Sebastian.pl 
+ 1697  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1698  nano Sebastian.pl 
+ 1699  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1700  nano Sebastian.pl 
+ 1701  perl Sebastian.pl ACGT_genome.csv peak_areas.csv 
+ 1702  more peak_areas.csv 
+ 1703  ls -lt
+ 1704  more Sebastian.pl 
+ 1705  nano Sebastian.pl 
+ 1706  ls -lt
+ 1707  more Sebastian.pl 
+ 1708  nano random.py
+ 1709  python random.py 
+ 1710  nano random.py
+ 1711  python random.py 
+ 1712  nano random.py
+ 1713  python random.py 
+ 1714  nano random.py
+ 1715  mv random.py create_random.py
+ 1716  python create_random.py 
+ 1717  dir(random)
+ 1718  which random
+ 1719  dir random
+ 1720  ls random
+ 1721  nano create_random.py 
+ 1722  python create_random.py 
+ 1723  nano create_random.py 
+ 1724  python create_random.py 
+ 1725  nano create_random.py 
+ 1726  python create_random.py 
+ 1727  rm random.pyc 
+ 1728  python create_random.py 
+ 1729  nano create_random.py 
+ 1730  python create_random.py 
+ 1731  nano create_random.py 
+ 1732  python create_random.py 
+ 1733  nano create_random.py 
+ 1734  nano create_random.py > sgd.csv
+ 1735  ls -lt
+ 1736  nano create_random.py 
+ 1737  python create_random.py > sgd.csv
+ 1738  nano create_random.py 
+ 1739  python create_random.py > peaks.csv
+ 1740  more peak
+ 1741  more peaks.csv 
+ 1742  nano Sebastian.pl    
+ 1743  ls -lt
+ 1744  perl Sebastian.pl sgd.csv peaks.csv 
+ 1745  ls -lt
+ 1746  nano Sebastian.pl    
+ 1747  perl Sebastian.pl sgd.csv peaks.csv 
+ 1748  more peaks.csv 
+ 1749  perl Sebastian.pl sgd.csv peaks.csv 
+ 1750  more sgd.csv 
+ 1751  perl Sebastian.pl sgd.csv peaks.csv 
+ 1752  ls -lt
+ 1753  rm Sebastian.pl peaks.csv sgd.csv 
+ 1754  ls -lt
+ 1755  more create_random.py 
+ 1756  ls -lt
+ 1757  rm create_random.py 
+ 1758  ls -lt
+ 1759  ipython notebook_library.py
+ 1760  ipython notebook
+ 1761  perl --help
+ 1762  nano borrar.pl
+ 1763  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1764  nano borrar.pl
+ 1765  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1766  nano borrar.pl
+ 1767  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1768  nano borrar.pl
+ 1769  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1770  nano borrar.pl
+ 1771  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1772  nano borrar.pl
+ 1773  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1774  nano borrar.pl
+ 1775  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1776  nano borrar.pl
+ 1777  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1778  nano borrar.pl
+ 1779  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1780  nano borrar.pl
+ 1781  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1782  nano borrar.pl
+ 1783  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1784  nano borrar.pl
+ 1785  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1786  nano borrar.pl
+ 1787  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1788  nano borrar.pl
+ 1789  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1790  nano borrar.pl
+ 1791  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1792  nano borrar.pl
+ 1793  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1794  nano borrar.pl
+ 1795  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1796  nano borrar.pl
+ 1797  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1798  nano borrar.pl
+ 1799  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1800  nano borrar.pl
+ 1801  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1802  nano borrar.pl
+ 1803  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1804  nano borrar.pl
+ 1805  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1806  nano borrar.pl
+ 1807  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1808  nano borrar.pl
+ 1809  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1810  nano borrar.pl
+ 1811  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1812  nano borrar.pl
+ 1813  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1814  nano borrar.pl
+ 1815  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1816  nano borrar.pl
+ 1817  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1818  nano borrar.pl
+ 1819  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1820  nano borrar.pl
+ 1821  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1822  nano borrar.pl
+ 1823  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1824  nano borrar.pl
+ 1825  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1826  nano borrar.pl
+ 1827  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1828  nano borrar.pl
+ 1829  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1830  nano borrar.pl
+ 1831  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1832  nano borrar.pl
+ 1833  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1834  nano borrar.pl
+ 1835  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1836  nano borrar.pl
+ 1837  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1838  nano borrar.pl
+ 1839  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1840  nano borrar.pl
+ 1841  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1842  nano borrar.pl
+ 1843  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1844  nano borrar.pl
+ 1845  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1846  nano borrar.pl
+ 1847  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1848  nano borrar.pl
+ 1849  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1850  nano borrar.pl
+ 1851  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1852  nano borrar.pl
+ 1853  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1854  nano borrar.pl
+ 1855  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1856  nano borrar.pl
+ 1857  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1858  nano borrar.pl
+ 1859  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1860  nano borrar.pl
+ 1861  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1862  nano borrar.pl
+ 1863  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1864  nano borrar.pl
+ 1865  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1866  nano borrar.pl
+ 1867  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1868  nano borrar.pl
+ 1869  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1870  nano borrar.pl
+ 1871  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1872  nano borrar.pl
+ 1873  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1874  nano borrar.pl
+ 1875  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1876  nano borrar.pl
+ 1877  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1878  nano borrar.pl
+ 1879  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1880  nano borrar.pl
+ 1881  more correct_Ubp8_peaks.csv 
+ 1882  nano borrar.pl
+ 1883  more correct_Ubp8_peaks.csv 
+ 1884  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1885  more correct_Ubp8_peaks.csv 
+ 1886  nano borrar.pl
+ 1887  more correct_Ubp8_peaks.csv 
+ 1888  nano borrar.pl
+ 1889  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1890  nano borrar.pl
+ 1891  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1892  nano borrar.pl
+ 1893  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1894  nano borrar.pl
+ 1895  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1896  nano borrar.pl
+ 1897  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1898  nano borrar.pl
+ 1899  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1900  nano borrar.pl
+ 1901  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1902  nano b.py
+ 1903  b.py correct_Ubp8_peaks.csv 
+ 1904  python b.py correct_Ubp8_peaks.csv 
+ 1905  nano b.py
+ 1906  more correct_Ubp8_peaks.csv 
+ 1907  nano b.py
+ 1908  python b.py correct_Ubp8_peaks.csv 
+ 1909  python b.py correct_Ubp8_peaks.csv > a
+ 1910  perl borrar.pl a
+ 1911  nano borrar.pl
+ 1912  perl borrar.pl a
+ 1913  nano borrar.pl
+ 1914  perl borrar.pl a
+ 1915  nano borrar.pl
+ 1916  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1917  rm a b.py 
+ 1918  nano borrar.pl
+ 1919  rm a b.py 
+ 1920  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1921  nano borrar.pl
+ 1922  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1923  nano borrar.pl
+ 1924  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1925  nano borrar.pl
+ 1926  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1927  nano borrar.pl
+ 1928  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1929  nano borrar.pl
+ 1930  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1931  nano borrar.pl
+ 1932  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1933  nano borrar.pl
+ 1934  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1935  nano borrar.pl
+ 1936  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1937  nano borrar.pl
+ 1938  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1939  nano borrar.pl
+ 1940  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1941  nano borrar.pl
+ 1942  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1943  nano borrar.pl
+ 1944  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1945  nano borrar.pl
+ 1946  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1947  nano borrar.pl
+ 1948  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1949  nano borrar.pl
+ 1950  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1951  nano borrar.pl
+ 1952  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1953  nano borrar.pl
+ 1954  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1955  nano borrar.pl
+ 1956  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1957  nano borrar.pl
+ 1958  perl borrar.pl correct_Ubp8_peaks.csv 
+ 1959  nano borrar.pl
+ 1960  ls -lt
+ 1961  more borrar.pl 
+ 1962  ssh aerijman@rhin
+ 1963  ssh aerijman@rhino
+ 1964  ls -tlh
+ 1965  more borrar.pl 
+ 1966  rm borrar.pl 
+ 1967  ls -lt
+ 1968  rm correct_Ubp8_peaks.csv 
+ 1969  ls -lt
+ 1970  ls -lt /var/www/
+ 1971  ls -lt /var/www/html/
+ 1972  ls -lt /var/www/html/index.html 
+ 1973  momre /var/www/html/index.html 
+ 1974  more /var/www/html/index.html 
+ 1975  more /var/www/html/tm.cgi 
+ 1976  nano hello.py
+ 1977  ls -lt
+ 1978  ls -lt /var/www/html/
+ 1979  mv hello.py /var/www/html/
+ 1980  sudo mv hello.py /var/www/html/
+ 1981  chmod +x /var/www/html/hello.py 
+ 1982  /var/www/html/hello.py 
+ 1983  python /var/www/html/hello.py 
+ 1984  sudo rm /var/www/html/hello.py 
+ 1985  ls -lt
+ 1986  ipython notebook
+ 1987  cd Documents/
+ 1988  cd gcn4_ChEC/
+ 1989  ls -lt
+ 1990  history
+ 1991  history > history
+ 1992  grep "git" history
+ 1993  git config --global user.name aerijman
+ 1994  git push origin master
+ 1995  ls -lt
+ 1996  rm history
+ 1997  merge upstream/master
+ 1998  git merge upstream/master
+ 1999  git commit -m "Tutto a git!"
+ 2000  ipython notebook
+ 2001  cd Documents/gcn4_ChEC/
+ 2002  ipython notebook
+ 2003  history
+ 2004  history > history

@@ -1,0 +1,11 @@
+# open the SGD file --> Locus_ID // chromosome // ORF-start // strand(-1 or 1)
+# open  the peaks file --> chromosome // peak-center-value // ... Whatever
+
+
+import random
+import uuid
+
+
+for i in range(100):
+	print random.randint(1,16),",",random.randint(100,1000000)
+
