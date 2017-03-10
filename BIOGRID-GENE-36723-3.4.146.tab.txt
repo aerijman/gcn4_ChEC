@@ -1,0 +1,399 @@
+IN NO EVENT SHALL MOUNT SINAI HOSPITAL BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF MOUNT SINAI HOSPITAL
+HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+MOUNT SINAI HOSPITAL SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+THE SOFTWARE AND ACCOMPANYING DOCUMENTATION, IF ANY, PROVIDED HEREUNDER IS PROVIDED "AS IS". MOUNT SINAI HOSPITAL HAS NO
+OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+Published research assisted by this document should cite the original publishing author, as well as:
+In any articles making use of this data, please refer to:
+Stark C, Breitkreutz BJ, Reguly T, Boucher L, Breitkreutz A, Tyers M. BioGRID: A General Repository for Interaction Datasets.
+Nucleic Acids Res. Jan1;34:D535-9.
+
+This data is distributed for research purposes only, and is provided WITHOUT ANY WARRANTY.
+
+----------------------------------------------------------------------------------------------------
+
+Brief Description of the Columns: 
+
+A.) INTERACTOR_A			Unique ID for Interacting Partner A
+B.) INTERACTOR_B			Unique ID for Interacting Partner B
+C.) OFFICIAL_SYMBOL_FOR_A
+D.) OFFICIAL_SYMBOL_FOR_B
+E.) ALIASES_FOR_A			List of common names for geneA, separated by '|'
+F.) ALIASES_FOR_B			List of common names for geneB, separated by '|'
+G.) EXPERIMENTAL_SYSTEM			System in which the interaction was shown
+H.) SOURCE				Author/s of the interaction
+I.) PUBMED_ID				PubMed_ID of the paper, separated by ';'
+J.) ORGANISM_A_ID			NCBI ID of Gene A Organism
+K.) ORGANISM_B_ID			NCBI ID of Gene B Organism
+
+----------------------------------------------------------------------------------------------------
+File Version: 3.4.146
+----------------------------------------------------------------------------------------------------
+
+INTERACTOR_A	INTERACTOR_B	OFFICIAL_SYMBOL_A	OFFICIAL_SYMBOL_B	ALIASES_FOR_A	ALIASES_FOR_B	EXPERIMENTAL_SYSTEM	SOURCE	PUBMED_ID	ORGANISM_A_ID	ORGANISM_B_ID
+YPL038W	YEL009C	MET31	GCN4	L000003469	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Two-hybrid	Uetz P (2000)	10688190	559292	559292
+YDL097C	YEL009C	RPN6	GCN4	NAS4|proteasome regulatory particle lid subunit RPN6|L000004306	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Two-hybrid	Uetz P (2000)	10688190	559292	559292
+YOL051W	YEL009C	GAL11	GCN4	ABE1|MED15|RAR3|SDS4|SPT13|L000000664	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Affinity Capture-Western	Park JM (2000)	11073972	559292	559292
+YEL009C	YOL051W	GCN4	GAL11	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ABE1|MED15|RAR3|SDS4|SPT13|L000000664	Affinity Capture-Western	Park JM (2000)	11073972	559292	559292
+YEL009C	YBR289W	GCN4	SNF5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	HAF4|SWI10|TYE4|L000001948	Affinity Capture-Western	Prochasson P (2003)	14580348	559292	559292
+YEL009C	YPL016W	GCN4	SWI1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ADR6|GAM3|LPA1|[SWI(+)]|[SWI+]|L000000052|L000002250	Affinity Capture-Western	Prochasson P (2003)	14580348	559292	559292
+YEL009C	YDR308C	GCN4	SRB7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	MED21|SSX1|L000002754|S000029514|L000002097	Affinity Capture-Western	Swanson MJ (2003)	12665580	559292	559292
+YEL009C	YIL126W	GCN4	STH1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	NPS1|RSC chromatin remodeling complex ATPase subunit STH1|L000002128	Affinity Capture-Western	Swanson MJ (2003)	12665580	559292	559292
+YEL009C	YNR023W	GCN4	SNF12	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SWP73|L000003408	Affinity Capture-Western	Swanson MJ (2003)	12665580	559292	559292
+YEL009C	YBR289W	GCN4	SNF5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	HAF4|SWI10|TYE4|L000001948	Affinity Capture-Western	Neely KE (2002)	11865042	559292	559292
+YEL009C	YPL016W	GCN4	SWI1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ADR6|GAM3|LPA1|[SWI(+)]|[SWI+]|L000000052|L000002250	Affinity Capture-Western	Neely KE (2002)	11865042	559292	559292
+YEL009C	YOR290C	GCN4	SNF2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	GAM1|HAF1|SWI2|TYE3|SWI/SNF catalytic subunit SNF2|L000001945	Affinity Capture-Western	Neely KE (2002)	11865042	559292	559292
+YEL009C	YOR290C	GCN4	SNF2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	GAM1|HAF1|SWI2|TYE3|SWI/SNF catalytic subunit SNF2|L000001945	Affinity Capture-Western	Neely KE (1999)	10549297	559292	559292
+YEL009C	YGL025C	GCN4	PGD1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	HRS1|MED3|L000000811|L000001408	Affinity Capture-Western	Park JM (2000)	11073972	559292	559292
+YGL025C	YEL009C	PGD1	GCN4	HRS1|MED3|L000000811|L000001408	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Affinity Capture-Western	Park JM (2000)	11073972	559292	559292
+YEL009C	YOR174W	GCN4	MED4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000003915	Affinity Capture-Western	Park JM (2000)	11073972	559292	559292
+YEL009C	YER022W	GCN4	SRB4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	MED17|L000002051	Affinity Capture-Western	Park JM (2000)	11073972	559292	559292
+YEL009C	YDR308C	GCN4	SRB7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	MED21|SSX1|L000002754|S000029514|L000002097	Affinity Capture-Western	Park JM (2000)	11073972	559292	559292
+YEL009C	YBR289W	GCN4	SNF5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	HAF4|SWI10|TYE4|L000001948	Affinity Capture-Western	Natarajan K (1999)	10549298	559292	559292
+YEL009C	YHR041C	GCN4	SRB2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	HRS2|MED20|L000002050|L000003586	Affinity Capture-Western	Natarajan K (1999)	10549298	559292	559292
+YEL009C	YHR041C	GCN4	SRB2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	HRS2|MED20|L000002050|L000003586	Affinity Capture-Western	Natarajan K (1998)	9844640	559292	559292
+YEL009C	YNR023W	GCN4	SNF12	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SWP73|L000003408	Affinity Capture-Western	Natarajan K (1999)	10549298	559292	559292
+YEL009C	YMR236W	GCN4	TAF9	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAF17|TATA-binding protein-associated factor TAF9|TafII17|L000003459	Affinity Capture-Western	Natarajan K (1999)	10549298	559292	559292
+YEL009C	YMR236W	GCN4	TAF9	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAF17|TATA-binding protein-associated factor TAF9|TafII17|L000003459	Affinity Capture-Western	Natarajan K (1998)	9844640	559292	559292
+YEL009C	YBR198C	GCN4	TAF5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAF90|TafII90|L000004155	Affinity Capture-Western	Natarajan K (1999)	10549298	559292	559292
+YEL009C	YBR198C	GCN4	TAF5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAF90|TafII90|L000004155	Affinity Capture-Western	Natarajan K (1998)	9844640	559292	559292
+YEL009C	YPR034W	GCN4	ARP7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	RSC11|SWP61|L000003436	Affinity Capture-Western	Neely KE (1999)	10549297	559292	559292
+YEL009C	YPL129W	GCN4	TAF14	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ANC1|SWP29|TAF30|TFG3|TATA-binding protein-associated factor TAF14|TafII30|L000000086	Affinity Capture-Western	Neely KE (1999)	10549297	559292	559292
+YEL009C	YDR448W	GCN4	ADA2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SWI8|chromatin-binding transcription regulator ADA2|L000000029	Affinity Capture-Western	Natarajan K (1998)	9844640	559292	559292
+YEL009C	YOL148C	GCN4	SPT20	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ADA5|L000002593	Affinity Capture-Western	Natarajan K (1998)	9844640	559292	559292
+YEL009C	YBR081C	GCN4	SPT7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	GIT2|SAGA histone acetyltransferase complex subunit SPT7|L000002033	Affinity Capture-Western	Natarajan K (1998)	9844640	559292	559292
+YEL009C	YDR308C	GCN4	SRB7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	MED21|SSX1|L000002754|S000029514|L000002097	Affinity Capture-Western	Natarajan K (1998)	9844640	559292	559292
+YEL009C	YGL112C	GCN4	TAF6	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAF60|TafII60|L000002828	Affinity Capture-Western	Natarajan K (1998)	9844640	559292	559292
+YEL009C	YDR145W	GCN4	TAF12	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAF61|TAF68|TafII61|TafII68|L000003462	Affinity Capture-Western	Natarajan K (1998)	9844640	559292	559292
+YEL009C	YHR041C	GCN4	SRB2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	HRS2|MED20|L000002050|L000003586	Affinity Capture-Western	Drysdale CM (1998)	9488488	559292	559292
+YEL009C	YER022W	GCN4	SRB4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	MED17|L000002051	Affinity Capture-Western	Drysdale CM (1998)	9488488	559292	559292
+YEL009C	YGR274C	GCN4	TAF1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAF130|TAF145|KAT4|TafII145|TafII130|L000002748	Affinity Capture-Western	Drysdale CM (1998)	9488488	559292	559292
+YEL009C	YGL112C	GCN4	TAF6	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAF60|TafII60|L000002828	Affinity Capture-Western	Drysdale CM (1998)	9488488	559292	559292
+YEL009C	YBR198C	GCN4	TAF5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAF90|TafII90|L000004155	Affinity Capture-Western	Drysdale CM (1998)	9488488	559292	559292
+YEL009C	YMR236W	GCN4	TAF9	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAF17|TATA-binding protein-associated factor TAF9|TafII17|L000003459	Affinity Capture-Western	Drysdale CM (1998)	9488488	559292	559292
+YOR298C-A	YEL009C	MBF1	GCN4	SUF13|L000002160|L000004688	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Affinity Capture-Western	Takemaru K (1998)	9710580	559292	559292
+YEL009C	YGL025C	GCN4	PGD1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	HRS1|MED3|L000000811|L000001408	Far Western	Park JM (2000)	11073972	559292	559292
+YDR448W	YEL009C	ADA2	GCN4	SWI8|chromatin-binding transcription regulator ADA2|L000000029	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Reconstituted Complex	Barlev NA (1995)	7642611	559292	559292
+YEL009C	YOR298C-A	GCN4	MBF1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SUF13|L000002160|L000004688	Reconstituted Complex	Takemaru K (1998)	9710580	559292	559292
+YDL140C	YEL009C	RPO21	GCN4	RPB1|RPB220|SUA8|DNA-directed RNA polymerase II core subunit RPO21|B220|L000001744	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Reconstituted Complex	Brandl CJ (1989)	2649888	559292	559292
+YEL009C	YDR448W	GCN4	ADA2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SWI8|chromatin-binding transcription regulator ADA2|L000000029	Reconstituted Complex	Utley RT (1998)	9697775	559292	559292
+YEL009C	YDR392W	GCN4	SPT3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	transcriptional regulator SPT3|L000002029	Reconstituted Complex	Utley RT (1998)	9697775	559292	559292
+YEL009C	YBR081C	GCN4	SPT7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	GIT2|SAGA histone acetyltransferase complex subunit SPT7|L000002033	Reconstituted Complex	Utley RT (1998)	9697775	559292	559292
+YEL009C	YFL024C	GCN4	EPL1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000004576	Reconstituted Complex	Utley RT (1998)	9697775	559292	559292
+YEL009C	YHR090C	GCN4	YNG2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	EAF4|NBN1|histone acetyltransferase YNG2|L000004452	Reconstituted Complex	Utley RT (1998)	9697775	559292	559292
+YEL009C	YEL009C	GCN4	GCN4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Reconstituted Complex	Hope IA (1987)	3678204	559292	559292
+YEL009C	YBR289W	GCN4	SNF5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	HAF4|SWI10|TYE4|L000001948	Affinity Capture-Western	Yoon S (2004)	15289616	559292	559292
+YEL009C	YDR448W	GCN4	ADA2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SWI8|chromatin-binding transcription regulator ADA2|L000000029	Affinity Capture-Western	Drysdale CM (1998)	9488488	559292	559292
+YEL009C	YDR176W	GCN4	NGG1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ADA3|SWI7|histone acetyltransferase NGG1|L000001241	Affinity Capture-Western	Drysdale CM (1998)	9488488	559292	559292
+YER148W	YEL009C	SPT15	GCN4	BTF1|TBP1|TATA-binding protein|TBP|L000002037	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Reconstituted Complex	Melcher K (1995)	7739564	559292	559292
+YPL031C	YEL009C	PHO85	GCN4	LDB15|cyclin-dependent serine/threonine-protein kinase PHO85|phoU|L000001431	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Biochemical Activity	Shemer R (2002)	12101234	559292	559292
+YPL031C	YEL009C	PHO85	GCN4	LDB15|cyclin-dependent serine/threonine-protein kinase PHO85|phoU|L000001431	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Biochemical Activity	Meimoun A (2000)	10712509	559292	559292
+YPL042C	YEL009C	SSN3	GCN4	CDK8|GIG2|NUT7|RYE5|SRB10|SSX7|UME5|URR1|cyclin-dependent serine/threonine protein kinase SSN3|L000002795|S000029631|L000002443|S000029520|L000002103	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Biochemical Activity	Chi Y (2001)	11331604	559292	559292
+YGL058W	YEL009C	RAD6	GCN4	PSO8|UBC2|E2 ubiquitin-conjugating protein RAD6|L000001560	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Biochemical Activity	Kornitzer D (1994)	7813440	559292	559292
+YDR054C	YEL009C	CDC34	GCN4	DNA6|UBC3|SCF E2 ubiquitin-protein ligase catalytic subunit CDC34|L000000271	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Dosage Lethality	Meimoun A (2000)	10712509	559292	559292
+YFL009W	YEL009C	CDC4	GCN4	SCF ubiquitin ligase complex subunit CDC4|L000000244	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Dosage Lethality	Meimoun A (2000)	10712509	559292	559292
+YDL132W	YEL009C	CDC53	GCN4	cullin CDC53|L000000281	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Dosage Lethality	Meimoun A (2000)	10712509	559292	559292
+YEL009C	YML116W	GCN4	ATR1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SNQ1|L000001956|L000002831	Dosage Rescue	Kanazawa S (1988)	3280970	559292	559292
+YEL009C	YOR298C-A	GCN4	MBF1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SUF13|L000002160|L000004688	Dosage Rescue	Takemaru K (1998)	9710580	559292	559292
+YEL009C	YDR085C	GCN4	AFR1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000000059	Synthetic Rescue	Tavernarakis N (1995)	7603436	559292	559292
+YNL229C	YEL009C	URE2	GCN4	[URE3]|L000002439	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Enhancement	Sosa E (2003)	14559239	559292	559292
+YER040W	YEL009C	GLN3	GCN4	nitrogen-responsive transcriptional regulator GLN3|L000000710	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Synthetic Rescue	Valenzuela L (2001)	11244074	559292	559292
+YEL009C	YER040W	GCN4	GLN3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	nitrogen-responsive transcriptional regulator GLN3|L000000710	Synthetic Rescue	Valenzuela L (2001)	11244074	559292	559292
+YDR283C	YEL009C	GCN2	GCN4	AAS1|AAS102|NDR2|serine/threonine-protein kinase GCN2|L000000681	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Synthetic Rescue	Hinnebusch AG (1984)	6387704	559292	559292
+YOR260W	YEL009C	GCD1	GCN4	TRA3|L000000670	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Synthetic Rescue	Hinnebusch AG (1983)	6351059	559292	559292
+YDR283C	YEL009C	GCN2	GCN4	AAS1|AAS102|NDR2|serine/threonine-protein kinase GCN2|L000000681	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Dosage Rescue	Hinnebusch AG (1983)	6351059	559292	559292
+YKR026C	YEL009C	GCN3	GCN4	AAS2|translation initiation factor eIF2B subunit alpha|L000000682	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Dosage Rescue	Hinnebusch AG (1983)	6351059	559292	559292
+YER040W	YEL009C	GLN3	GCN4	nitrogen-responsive transcriptional regulator GLN3|L000000710	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Enhancement	Mitchell AP (1984)	6152013	559292	559292
+YDR283C	YEL009C	GCN2	GCN4	AAS1|AAS102|NDR2|serine/threonine-protein kinase GCN2|L000000681	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Two-hybrid	Millson SH (2005)	15633294	559292	559292
+YGL201C	YEL009C	MCM6	GCN4	MCM DNA helicase complex subunit MCM6|L000004104	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Two-hybrid	Millson SH (2005)	15633294	559292	559292
+YOR290C	YEL009C	SNF2	GCN4	GAM1|HAF1|SWI2|TYE3|SWI/SNF catalytic subunit SNF2|L000001945	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Co-localization	Kim Y (2006)	16982689	559292	559292
+YEL009C	YHR200W	GCN4	RPN10	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	MCB1|SUN1|proteasome regulatory particle base subunit RPN10|L000003108	Reconstituted Complex	Seong KM (2007)	17499717	559292	559292
+YEL009C	YOR117W	GCN4	RPT5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	YTA1|proteasome regulatory particle base subunit RPT5|L000002555	Reconstituted Complex	Seong KM (2007)	17499717	559292	559292
+YPR046W	YEL009C	MCM16	GCN4	L000003997	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Two-hybrid	Wong J (2007)	17634282	559292	559292
+YEL009C	YNL167C	GCN4	SKO1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ACR1|L000001909	Synthetic Rescue	Pascual-Ahuir A (2001)	11113177	559292	559292
+YEL009C	YHR143W-A	GCN4	RPC10	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	RPB12|DNA-directed RNA polymerase core subunit RPB12|ABC10-alpha|L000001686	PCA	Lim MK (2007)	17919657	559292	559292
+YEL009C	YPR086W	GCN4	SUA7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SOH4|TFIIB|L000002141	PCA	Lim MK (2007)	17919657	559292	559292
+YEL009C	YPR025C	GCN4	CCL1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TFIIH complex kinase subunit CCL1|L000000237	PCA	Lim MK (2007)	17919657	559292	559292
+YEL009C	YML098W	GCN4	TAF13	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	FUN81|TAF19|TafII19|L000000650	PCA	Lim MK (2007)	17919657	559292	559292
+YEL009C	YOL051W	GCN4	GAL11	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ABE1|MED15|RAR3|SDS4|SPT13|L000000664	PCA	Lim MK (2007)	17919657	559292	559292
+YEL009C	YOR290C	GCN4	SNF2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	GAM1|HAF1|SWI2|TYE3|SWI/SNF catalytic subunit SNF2|L000001945	PCA	Lim MK (2007)	17919657	559292	559292
+YEL009C	YOR023C	GCN4	AHC1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	PCA	Lim MK (2007)	17919657	559292	559292
+YEL009C	YDR392W	GCN4	SPT3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	transcriptional regulator SPT3|L000002029	PCA	Lim MK (2007)	17919657	559292	559292
+YHR200W	YEL009C	RPN10	GCN4	MCB1|SUN1|proteasome regulatory particle base subunit RPN10|L000003108	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Affinity Capture-Western	Seong KM (2007)	17978571	559292	559292
+YHR200W	YEL009C	RPN10	GCN4	MCB1|SUN1|proteasome regulatory particle base subunit RPN10|L000003108	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Reconstituted Complex	Seong KM (2007)	17978571	559292	559292
+YEL009C	YOL051W	GCN4	GAL11	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ABE1|MED15|RAR3|SDS4|SPT13|L000000664	Dosage Rescue	Lim MK (2007)	17919657	559292	559292
+YOL051W	YEL009C	GAL11	GCN4	ABE1|MED15|RAR3|SDS4|SPT13|L000000664	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	PCA	Lim MK (2007)	17919657	559292	559292
+YDL075W	YEL009C	RPL31A	GCN4	RPL34|ribosomal 60S subunit protein L31A|L31e|YL28|L34A|L31A|L000003297|L000001727	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Steffen KK (2008)	18423200	559292	559292
+YOR312C	YEL009C	RPL20B	GCN4	RPL18A1|ribosomal 60S subunit protein L20B|L20e|L20B|L18B|L000003148	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Steffen KK (2008)	18423200	559292	559292
+YKL180W	YEL009C	RPL17A	GCN4	RPL17|ribosomal 60S subunit protein L17A|L22|YL17|L20A|L17A|L000001715	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Steffen KK (2008)	18423200	559292	559292
+YPL079W	YEL009C	RPL21B	GCN4	ribosomal 60S subunit protein L21B|L21e|L21B|L000004459	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Steffen KK (2008)	18423200	559292	559292
+YBL087C	YEL009C	RPL23A	GCN4	ribosomal 60S subunit protein L23A|L14|YL32|L23A|L17aA|L000001716	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Steffen KK (2008)	18423200	559292	559292
+YFR032C-A	YEL009C	RPL29	GCN4	ribosomal 60S subunit protein L29|L29e|YL43|L29|L000004514	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Steffen KK (2008)	18423200	559292	559292
+YJR094W-A	YEL009C	RPL43B	GCN4	ribosomal 60S subunit protein L43B|L43e|L43B|L000004470	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Steffen KK (2008)	18423200	559292	559292
+YBR191W	YEL009C	RPL21A	GCN4	URP1|ribosomal 60S subunit protein L21A|L21e|L21A|L000002441	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Steffen KK (2008)	18423200	559292	559292
+YLR448W	YEL009C	RPL6B	GCN4	ribosomal 60S subunit protein L6B|L6e|rp18|YL16|L6B|L17B|L000001714	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Steffen KK (2008)	18423200	559292	559292
+YIL052C	YEL009C	RPL34B	GCN4	ribosomal 60S subunit protein L34B|L34e|L34B|L000004466	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Steffen KK (2008)	18423200	559292	559292
+YDR382W	YEL009C	RPP2B	GCN4	RPL45|YPA1|ribosomal protein P2B|YP2beta|P2B|L45|L000001736	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Steffen KK (2008)	18423200	559292	559292
+YJR066W	YEL009C	TOR1	GCN4	DRR1|phosphatidylinositol kinase-related protein kinase TOR1|L000002322	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Steffen KK (2008)	18423200	559292	559292
+YBL032W	YEL009C	HEK2	GCN4	KHD1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Affinity Capture-RNA	Hasegawa Y (2008)	18805955	559292	559292
+YFL009W	YEL009C	CDC4	GCN4	SCF ubiquitin ligase complex subunit CDC4|L000000244	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Two-hybrid	Kishi T (2008)	18787112	559292	559292
+YEL009C	YHR071W	GCN4	PCL5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000004037	Synthetic Rescue	Aviram S (2008)	18794371	559292	559292
+YPL031C	YEL009C	PHO85	GCN4	LDB15|cyclin-dependent serine/threonine-protein kinase PHO85|phoU|L000001431	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Biochemical Activity	Aviram S (2008)	18794371	559292	559292
+YEL009C	YEL009C	GCN4	GCN4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Protein-peptide	Gulla SV (2009)	19331323	559292	559292
+YEL009C	YKR099W	GCN4	BAS1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000000161	Phenotypic Enhancement	Joo YJ (2009)	19525417	559292	559292
+YBR160W	YEL009C	CDC28	GCN4	CDK1|HSL5|SRM5|cyclin-dependent serine/threonine-protein kinase CDC28|L000000267	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Synthetic Rescue	Tobe BT (2009)	19566963	559292	559292
+YGL122C	YEL009C	NAB2	GCN4	mRNA-binding protein NAB2|L000001227	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Affinity Capture-RNA	Batisse J (2009)	19840948	559292	559292
+YDL115C	YEL009C	IWR1	GCN4	-	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Peiro-Chova L (2009)	19679657	559292	559292
+YPL031C	YEL009C	PHO85	GCN4	LDB15|cyclin-dependent serine/threonine-protein kinase PHO85|phoU|L000001431	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Dosage Lethality	Sopko R (2006)	16455487	559292	559292
+YLR200W	YEL009C	YKE2	GCN4	GIM1|PFD6|L000002791	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Synthetic Rescue	Deplazes A (2009)	19387492	559292	559292
+YFL023W	YEL009C	BUD27	GCN4	URI1|S000007647	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Synthetic Rescue	Deplazes A (2009)	19387492	559292	559292
+YER177W	YEL009C	BMH1	GCN4	APR6|14-3-3 family protein BMH1|L000000185	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Synthetic Lethality	Wang C (2009)	19805817	559292	559292
+YEL009C	YJR066W	GCN4	TOR1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	DRR1|phosphatidylinositol kinase-related protein kinase TOR1|L000002322	Synthetic Rescue	Wang C (2009)	19805817	559292	559292
+YJL059W	YEL009C	YHC3	GCN4	BTN1|L000003332|L000003284	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Synthetic Growth Defect	Vitiello SP (2007)	17341489	559292	559292
+YEL009C	YOL051W	GCN4	GAL11	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ABE1|MED15|RAR3|SDS4|SPT13|L000000664	Reconstituted Complex	Herbig E (2010)	20308326	559292	559292
+YEL009C	YDR145W	GCN4	TAF12	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAF61|TAF68|TafII61|TafII68|L000003462	Reconstituted Complex	Herbig E (2010)	20308326	559292	559292
+YEL009C	YHR071W	GCN4	PCL5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000004037	Dosage Rescue	Herzog B (2010)	21111745	559292	559292
+YEL009C	YIL033C	GCN4	BCY1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SRA1|cAMP-dependent protein kinase regulatory subunit BCY1|L000002044	Phenotypic Enhancement	Fendt SM (2010)	21119627	559292	559292
+YEL009C	YDR477W	GCN4	SNF1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	CAT1|CCR1|GLC2|HAF3|PAS14|AMP-activated serine/threonine-protein kinase catalytic subunit SNF1|L000001944	Phenotypic Enhancement	Fendt SM (2010)	21119627	559292	559292
+YEL009C	YKL109W	GCN4	HAP4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	transcription factor HAP4|L000000754	Phenotypic Enhancement	Fendt SM (2010)	21119627	559292	559292
+YEL009C	YHR099W	GCN4	TRA1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	histone acetyltransferase TRA1|L000003945	Affinity Capture-Western	Knutson BA (2010)	21149579	559292	559292
+YEL009C	YER040W	GCN4	GLN3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	nitrogen-responsive transcriptional regulator GLN3|L000000710	Co-localization	Hernandez H (2010)	21184740	559292	559292
+YEL009C	YER040W	GCN4	GLN3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	nitrogen-responsive transcriptional regulator GLN3|L000000710	Affinity Capture-Western	Hernandez H (2010)	21184740	559292	559292
+YEL009C	YKL032C	GCN4	IXR1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ORD1|L000000881	Synthetic Growth Defect	Batenchuk C (2010)	20831804	559292	559292
+YEL009C	YOL051W	GCN4	GAL11	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ABE1|MED15|RAR3|SDS4|SPT13|L000000664	Affinity Capture-Western	Jedidi I (2010)	19940160	559292	559292
+YEL009C	YDL005C	GCN4	MED2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000003914	Affinity Capture-Western	Jedidi I (2010)	19940160	559292	559292
+YEL009C	YHL025W	GCN4	SNF6	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000001949	Affinity Capture-Western	Jedidi I (2010)	19940160	559292	559292
+YEL009C	YDR392W	GCN4	SPT3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	transcriptional regulator SPT3|L000002029	Affinity Capture-Western	Jedidi I (2010)	19940160	559292	559292
+YEL009C	YOL051W	GCN4	GAL11	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ABE1|MED15|RAR3|SDS4|SPT13|L000000664	Reconstituted Complex	Jedidi I (2010)	19940160	559292	559292
+YEL009C	YEL009C	GCN4	GCN4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Co-crystal Structure	Ciani B (2010)	21045134	559292	559292
+YEL009C	YNL216W	GCN4	RAP1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	GRF1|TBA1|TUF1|DNA-binding transcription factor RAP1|L000001581	Reconstituted Complex	Joo YJ (2011)	21183953	559292	559292
+YEL009C	YNL216W	GCN4	RAP1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	GRF1|TBA1|TUF1|DNA-binding transcription factor RAP1|L000001581	Affinity Capture-Western	Joo YJ (2011)	21183953	559292	559292
+YNL216W	YEL009C	RAP1	GCN4	GRF1|TBA1|TUF1|DNA-binding transcription factor RAP1|L000001581	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Affinity Capture-Western	Joo YJ (2011)	21183953	559292	559292
+YEL009C	YOL051W	GCN4	GAL11	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ABE1|MED15|RAR3|SDS4|SPT13|L000000664	Reconstituted Complex	Wands AM (2011)	21317429	559292	559292
+YEL009C	YOL051W	GCN4	GAL11	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ABE1|MED15|RAR3|SDS4|SPT13|L000000664	Phenotypic Suppression	Wands AM (2011)	21317429	559292	559292
+YBR279W	YEL009C	PAF1	GCN4	L000002621	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Crisucci EM (2012)	22252319	559292	559292
+YEL009C	YOL051W	GCN4	GAL11	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ABE1|MED15|RAR3|SDS4|SPT13|L000000664	Co-crystal Structure	Brzovic PS (2011)	22195967	559292	559292
+YEL009C	YOL051W	GCN4	GAL11	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ABE1|MED15|RAR3|SDS4|SPT13|L000000664	Reconstituted Complex	Brzovic PS (2011)	22195967	559292	559292
+YEL009C	YDR145W	GCN4	TAF12	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAF61|TAF68|TafII61|TafII68|L000003462	Co-crystal Structure	Brzovic PS (2011)	22195967	559292	559292
+YHR099W	YEL009C	TRA1	GCN4	histone acetyltransferase TRA1|L000003945	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	PCA	Lin L (2012)	22308403	559292	559292
+YEL009C	YPL031C	GCN4	PHO85	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	LDB15|cyclin-dependent serine/threonine-protein kinase PHO85|phoU|L000001431	Synthetic Growth Defect	Rosonina E (2012)	22345516	559292	559292
+YDR515W	YEL009C	SLF1	GCN4	SRO99|L000004191|L000002894	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Affinity Capture-RNA	Schenk L (2012)	22271760	559292	559292
+YPR199C	YEL009C	ARR1	GCN4	ACR1|YAP8|L000004292	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Synthetic Rescue	Duemcke S (2012)	22844089	559292	559292
+YPR199C	YEL009C	ARR1	GCN4	ACR1|YAP8|L000004292	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Duemcke S (2012)	22844089	559292	559292
+YOR140W	YEL009C	SFL1	GCN4	L000001869	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Torbensen R (2012)	22844449	559292	559292
+YEL009C	YNL084C	GCN4	END3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000000558	PCA	Wang Y (2012)	22875988	559292	559292
+YKL179C	YEL009C	COY1	GCN4	-	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Two-hybrid	Wang Y (2012)	22875988	559292	559292
+YNL084C	YEL009C	END3	GCN4	L000000558	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Two-hybrid	Wang Y (2012)	22875988	559292	559292
+YNL107W	YEL009C	YAF9	GCN4	S000007495	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Two-hybrid	Wang Y (2012)	22875988	559292	559292
+YPL146C	YEL009C	NOP53	GCN4	RRP16	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Two-hybrid	Wang Y (2012)	22875988	559292	559292
+YNL330C	YEL009C	RPD3	GCN4	MOF6|REC3|SDI2|SDS6|histone deacetylase RPD3|L000001696|L000001603	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Dosage Lethality	Kaluarachchi Duffy S (2012)	22579291	559292	559292
+YDL160C	YEL009C	DHH1	GCN4	DExD/H-box ATP-dependent RNA helicase DHH1|L000000504	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Affinity Capture-RNA	Mitchell SF (2012)	23222640	559292	559292
+YHL034C	YEL009C	SBP1	GCN4	SSB1|SSBR1|L000002628|L000002076	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Affinity Capture-RNA	Mitchell SF (2012)	23222640	559292	559292
+YEL009C	YEL009C	GCN4	GCN4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Reconstituted Complex	Chan IS (2012)	22856882	559292	559292
+YEL009C	YEL009C	GCN4	GCN4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Co-crystal Structure	Diao J (2010)	20027625	559292	559292
+YEL009C	YEL009C	GCN4	GCN4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Co-crystal Structure	Oshaben KM (2012)	23116373	559292	559292
+YLL013C	YEL009C	PUF3	GCN4	mRNA-binding protein PUF3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Affinity Capture-RNA	Freeberg MA (2013)	23409723	559292	559292
+YEL009C	YEL009C	GCN4	GCN4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	FRET	Reinke AW (2013)	23661758	559292	559292
+YFL031W	YEL009C	HAC1	GCN4	ERN4|IRE15|transcription factor HAC1|L000002611	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Enhancement	Herzog B (2013)	23794510	559292	559292
+YBR160W	YEL009C	CDC28	GCN4	CDK1|HSL5|SRM5|cyclin-dependent serine/threonine-protein kinase CDC28|L000000267	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	PCA	Ear PH (2013)	24019491	559292	559292
+YJR139C	YEL009C	HOM6	GCN4	THR6|homoserine dehydrogenase|L000000801	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Rawal Y (2014)	25079372	559292	559292
+YFL009W	YEL009C	CDC4	GCN4	SCF ubiquitin ligase complex subunit CDC4|L000000244	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Protein-peptide	Tang X (2005)	16338374	559292	559292
+YDR328C	YEL009C	SKP1	GCN4	MGO1|SCF ubiquitin ligase subunit SKP1|CBF3D|L000001910	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Protein-peptide	Tang X (2005)	16338374	559292	559292
+YFL009W	YEL009C	CDC4	GCN4	SCF ubiquitin ligase complex subunit CDC4|L000000244	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Biochemical Activity	Tang X (2005)	16338374	559292	559292
+YEL009C	YFR004W	GCN4	RPN11	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	MPR1|proteasome regulatory particle lid subunit RPN11|L000002976|L000002965	Reconstituted Complex	Seong KM (2007)	17978571	559292	559292
+YEL009C	YOR117W	GCN4	RPT5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	YTA1|proteasome regulatory particle base subunit RPT5|L000002555	Reconstituted Complex	Seong KM (2007)	17978571	559292	559292
+YEL009C	YHR200W	GCN4	RPN10	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	MCB1|SUN1|proteasome regulatory particle base subunit RPN10|L000003108	Reconstituted Complex	Seong KM (2007)	17978571	559292	559292
+YPR088C	YEL009C	SRP54	GCN4	SRH1|L000002064	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Co-purification	Del Alamo M (2011)	21765803	559292	559292
+YNL209W	YEL009C	SSB2	GCN4	YG103|Hsp70 family ATPase SSB2|L000002715	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Co-purification	Willmund F (2013)	23332755	559292	559292
+YDL075W	YEL009C	RPL31A	GCN4	RPL34|ribosomal 60S subunit protein L31A|L31e|YL28|L34A|L31A|L000003297|L000001727	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Phenotypic Suppression	Moretto F (2013)	24217298	559292	559292
+YEL009C	YBR081C	GCN4	SPT7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	GIT2|SAGA histone acetyltransferase complex subunit SPT7|L000002033	Reconstituted Complex	Saint M (2014)	24550006	559292	559292
+YEL009C	YMR236W	GCN4	TAF9	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAF17|TATA-binding protein-associated factor TAF9|TafII17|L000003459	Reconstituted Complex	Saint M (2014)	24550006	559292	559292
+YEL009C	YDR145W	GCN4	TAF12	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAF61|TAF68|TafII61|TafII68|L000003462	Reconstituted Complex	Saint M (2014)	24550006	559292	559292
+YEL009C	YGR252W	GCN4	GCN5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	AAS104|ADA4|SWI9|histone acetyltransferase GCN5|KAT2|L000000684	Reconstituted Complex	Saint M (2014)	24550006	559292	559292
+YEL009C	YHR099W	GCN4	TRA1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	histone acetyltransferase TRA1|L000003945	Reconstituted Complex	Saint M (2014)	24550006	559292	559292
+YEL009C	YHL025W	GCN4	SNF6	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000001949	Reconstituted Complex	Saint M (2014)	24550006	559292	559292
+YEL009C	YER148W	GCN4	SPT15	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	BTF1|TBP1|TATA-binding protein|TBP|L000002037	Reconstituted Complex	Saint M (2014)	24550006	559292	559292
+YEL009C	YBR081C	GCN4	SPT7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	GIT2|SAGA histone acetyltransferase complex subunit SPT7|L000002033	Reconstituted Complex	Setiaputra D (2015)	25713136	559292	559292
+YOR153W	YEL009C	PDR5	GCN4	LEM1|STS1|YDR1|ATP-binding cassette multidrug transporter PDR5|L000001365|L000002136|L000002504	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Dosage Rescue	Khakhina S (2015)	25724885	559292	559292
+YGR281W	YEL009C	YOR1	GCN4	YRS1|ATP-binding cassette transporter YOR1|L000003083	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Dosage Rescue	Khakhina S (2015)	25724885	559292	559292
+YGL211W	YEL009C	NCS6	GCN4	TUC1|YGL210W-A	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Synthetic Rescue	Zinshteyn B (2013)	23935536	559292	559292
+YPR042C	YEL009C	PUF2	GCN4	-	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Affinity Capture-RNA	Porter DF (2015)	26668354	559292	559292
+YEL009C	YPL250C	GCN4	ICY2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	S000007528	Phenotypic Suppression	Yao Z (2015)	26565778	559292	559292
+YEL009C	YAL040C	GCN4	CLN3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	DAF1|FUN10|WHI1|cyclin CLN3|L000000359	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBL010C	GCN4	YBL010C	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBL032W	GCN4	HEK2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	KHD1	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBL067C	GCN4	UBP13	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000003172	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBL079W	GCN4	NUP170	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	NLE3|L000001256|L000003140	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBL107C	GCN4	MIX23	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	MIC23	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR006W	GCN4	UGA2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	UGA5|succinate-semialdehyde dehydrogenase (NAD(P)(+))|S000007516	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR023C	GCN4	CHS3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	CAL1|CSD2|DIT101|KTI2|chitin synthase CHS3|L000000331	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR048W	GCN4	RPS11B	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ribosomal 40S subunit protein S11B|S17|rp41B|YS12|S18B|S11B|L000001758	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR076W	GCN4	ECM8	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000003883	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR095C	GCN4	RXT2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	RAF60	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR108W	GCN4	AIM3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR139W	GCN4	YBR139W	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	carboxypeptidase C	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR194W	GCN4	AIM4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SOY1	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR201W	GCN4	DER1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000002800	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YCR014C	GCN4	POL4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	POLX|L000001462	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YCR077C	GCN4	PAT1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	MRT1|L000001183|L000003214	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDL059C	GCN4	RAD59	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000003987	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDL065C	GCN4	PEX19	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	PAS12|L000003965	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDL074C	GCN4	BRE1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	E3 ubiquitin-protein ligase BRE1	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDL117W	GCN4	CYK3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDR131C	GCN4	YDR131C	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDR144C	GCN4	MKC7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	YPS2|L000003069	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDR150W	GCN4	NUM1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	PAC12|L000001287	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDR159W	GCN4	SAC3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	LEP1|L000001792	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDR219C	GCN4	MFB1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDR245W	GCN4	MNN10	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	BED1|REC41|SLC2|L000002793|L000002853	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDR310C	GCN4	SUM1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000003008	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDR406W	GCN4	PDR15	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ATP-binding cassette multidrug transporter PDR15|L000002909	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDR421W	GCN4	ARO80	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YFR014C	GCN4	CMK1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	calmodulin-dependent protein kinase CMK1|L000000366	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGL027C	GCN4	CWH41	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	DER7|GLS1|L000003121|L000000715	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGL032C	GCN4	AGA2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000000062	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGL115W	GCN4	SNF4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	CAT3|SCI1|AMP-activated serine/threonine-protein kinase regulatory subunit SNF4|L000001947	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGL173C	GCN4	XRN1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	DST2|KEM1|RAR5|SEP1|SKI1|chromatin-binding exonuclease XRN1|L000000891|L000001902	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGR018C	GCN4	YGR018C	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGR027C	GCN4	RPS25A	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	RPS31A|ribosomal 40S subunit protein S25A|S25e|rp45|YS23|S31A|S25A|L000003257	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGR081C	GCN4	SLX9	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGR143W	GCN4	SKN1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	beta-glucan synthesis-associated protein SKN1|L000001907	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGR157W	GCN4	CHO2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	PEM1|phosphatidylethanolamine N-methyltransferase|L000000328	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YHL020C	GCN4	OPI1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	transcriptional regulator OPI1|L000001303	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YHR031C	GCN4	RRM3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	RTT104|S000007420	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YHR041C	GCN4	SRB2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	HRS2|MED20|L000002050|L000003586	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YIL006W	GCN4	YIA6	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	NDT1	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YIL064W	GCN4	EFM4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SEE1	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YIL084C	GCN4	SDS3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000003384	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YIL137C	GCN4	TMA108	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TAE3|RBF108	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YJL145W	GCN4	SFH5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YJR032W	GCN4	CPR7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	peptidylprolyl isomerase CPR7|L000003230	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YJR118C	GCN4	ILM1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKL032C	GCN4	IXR1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ORD1|L000000881	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKL116C	GCN4	PRR1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	serine/threonine protein kinase PRR1	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKL121W	GCN4	DGR2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKL176C	GCN4	LST4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000004354	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKR082W	GCN4	NUP133	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	RAT3|L000002620	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR079W	GCN4	SIC1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SDB25|cyclin-dependent protein serine/threonine kinase inhibiting protein SIC1|L000001886|L000001822	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR085C	GCN4	ARP6	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000003435	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR087C	GCN4	CSF1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR149C	GCN4	YLR149C	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR172C	GCN4	DPH5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	diphthine synthase|L000000523	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR372W	GCN4	ELO3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SUR4|APA1|SRE1|VBM1|fatty acid elongase ELO3|L000002245	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YML056C	GCN4	IMD4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	IMP dehydrogenase IMD4	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YML102W	GCN4	CAC2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000003389	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YML103C	GCN4	NUP188	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000003099	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR021C	GCN4	MAC1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	CUA1|L000000973|L000001035	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR039C	GCN4	SUB1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TSP1|L000003936	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR058W	GCN4	FET3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ferroxidase FET3|L000000610	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR070W	GCN4	MOT3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ROX7|[MOT3]|[MOT3+]|L000002675	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR116C	GCN4	ASC1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ASU9|CPC2|NAD1|guanine nucleotide-binding protein subunit beta|L000003529|L000000135|S000029045	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR119W	GCN4	ASI1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	putative ubiquitin-protein ligase ASI1	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR127C	GCN4	SAS2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	KAT8|L000001802	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR143W	GCN4	RPS16A	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ribosomal 40S subunit protein S16A|S9|rp61R|S16A|L000004477	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YNL080C	GCN4	EOS1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YNL082W	GCN4	PMS1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000001457	Positive Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YAR002C-A	GCN4	ERP1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000004678	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBL001C	GCN4	ECM15	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000003890	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBL008W	GCN4	HIR1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000000776	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBL060W	GCN4	YEL1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	Arf family guanine nucleotide exchange factor YEL1	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBL069W	GCN4	AST1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000000133	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBL087C	GCN4	RPL23A	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ribosomal 60S subunit protein L23A|L14|YL32|L23A|L17aA|L000001716	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBL102W	GCN4	SFT2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000002950	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR013C	GCN4	YBR013C	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR054W	GCN4	YRO2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000002548	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR073W	GCN4	RDH54	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TID1|DNA-dependent ATPase RDH54|L000002988|L000003224	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR082C	GCN4	UBC4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	E2 ubiquitin-conjugating protein UBC4|L000002407	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR103W	GCN4	SIF2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	EMB1	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR105C	GCN4	VID24	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	GID4|glucose-induced degradation complex subunit VID24|L000004624	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR111C	GCN4	YSA1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	RMA2|L000002551	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR164C	GCN4	ARL1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	DLP2|Arf family GTPase ARL1|L000002832	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR170C	GCN4	NPL4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	HRD4|L000001271	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR184W	GCN4	YBR184W	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR204C	GCN4	LDH1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR221C	GCN4	PDB1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	pyruvate dehydrogenase (acetyl-transferring) subunit E1 beta|L000001353	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YBR255W	GCN4	MTC4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YCL010C	GCN4	SGF29	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YCL024W	GCN4	KCC4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YCL038C	GCN4	ATG22	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	AUT4|L000004750	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YCR015C	GCN4	YCR015C	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YCR053W	GCN4	THR4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	threonine synthase THR4|L000002300	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YCR060W	GCN4	TAH1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YCR065W	GCN4	HCM1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000000757	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDL020C	GCN4	RPN4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SON1|UFD5|stress-regulated transcription factor RPN4|L000001984	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDL035C	GCN4	GPR1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000004298	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDL061C	GCN4	RPS29B	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ribosomal 40S subunit protein S29B|S14|YS29|S36B|S29B|YS29B|L000002550	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDR162C	GCN4	NBP2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000002861	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDR207C	GCN4	UME6	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	CAR80|NIM2|RIM16|DNA-binding transcriptional regulator UME6|L000002426	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDR346C	GCN4	SVF1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SGI1	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDR378C	GCN4	LSM6	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000004685	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YDR388W	GCN4	RVS167	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	amphiphysin|L000001789	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGL045W	GCN4	RIM8	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ART9|PAL3|YGL046W|L000004171	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGL153W	GCN4	PEX14	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000004118	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGL167C	GCN4	PMR1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	BSD1|LDB1|SSC1|Ca(2+)/Mn(2+)-transporting P-type ATPase PMR1|L000004740|L000001455	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGL168W	GCN4	HUR1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGL194C	GCN4	HOS2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	RTL1|histone deacetylase HOS2|L000004092|L000003448	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGL235W	GCN4	YGL235W	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGL252C	GCN4	RTG2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000001784	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGR077C	GCN4	PEX8	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	PAS6|L000004222|L000003962	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGR118W	GCN4	RPS23A	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ribosomal 40S subunit protein S23A|rp37|YS14|S28A|S23A|S12|L000001764	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGR133W	GCN4	PEX4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	PAS2|UBC10|E2 ubiquitin-protein ligase peroxin 4|L000001338	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YGR270W	GCN4	YTA7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000002561	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YHR150W	GCN4	PEX28	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YHR163W	GCN4	SOL3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	6-phosphogluconolactonase SOL3|L000003117	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YHR182W	GCN4	YHR182W	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YHR198C	GCN4	AIM18	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	FMP22	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YHR203C	GCN4	RPS4B	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ribosomal 40S subunit protein S4B|S4e|rp5|YS6|S7B|S4B|L000001750	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YIL036W	GCN4	CST6	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ACA2|SHF1|L000002995	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YIL134W	GCN4	FLX1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000002664	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YJL046W	GCN4	AIM22	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	LIP3|RRG3|putative lipoate--protein ligase	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YJL094C	GCN4	KHA1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YJL095W	GCN4	BCK1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	LAS3|SAP3|SLK1|SSP31|mitogen-activated protein kinase kinase kinase BCK1|L000000162	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YJR082C	GCN4	EAF6	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKL039W	GCN4	PTM1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000001524	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKL041W	GCN4	VPS24	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	DID3|VPL26|ESCRT-III subunit protein VPS24|L000004158	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKL093W	GCN4	MBR1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000001033	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKL168C	GCN4	KKQ8	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	putative serine/threonine protein kinase KKQ8|L000004097	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKL190W	GCN4	CNB1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	CRV1|YCN2|calcineurin regulatory subunit B|L000000371	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKR011C	GCN4	YKR011C	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	TOS5	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKR028W	GCN4	SAP190	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000002600	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKR029C	GCN4	SET3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	histone-binding protein SET3	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKR065C	GCN4	PAM17	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	FMP18	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YKR099W	GCN4	BAS1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000000161	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLL058W	GCN4	YLL058W	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	cystathionine gamma-synthase	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR048W	GCN4	RPS0B	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	NAB1B|YST2|ribosomal 40S subunit protein S0B|S2|S0B|L000002908	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR056W	GCN4	ERG3	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	PSO6|SYR1|C-5 sterol desaturase|L000000570|L000004043	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR059C	GCN4	REX2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	YNT20|L000003035	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR095C	GCN4	IOC2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR142W	GCN4	PUT1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	proline dehydrogenase|L000001535	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR165C	GCN4	PUS5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	pseudouridine synthase PUS5	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR170C	GCN4	APS1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	YAP19|L000002493	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR191W	GCN4	PEX13	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	PAS20|L000003024	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR224W	GCN4	YLR224W	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR237W	GCN4	THI7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	THI10|L000003514	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR268W	GCN4	SEC22	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	SLY2|TS26|TSL26|SNAP receptor SEC22|L000001845|S000029606|L000002362	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR287C-A	GCN4	RPS30A	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ribosomal 40S subunit protein S30A|S30e|S30A|L000003183	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR315W	GCN4	NKP2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR373C	GCN4	VID22	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR406C	GCN4	RPL31B	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ribosomal 60S subunit protein L31B|L31e|YL28|L34B|L31B|L000004463	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YLR418C	GCN4	CDC73	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000002792	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YML001W	GCN4	YPT7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	AST4|VAM4|Rab family GTPase YPT7|L000002544	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YML063W	GCN4	RPS1B	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	PLC2|RP10B|ribosomal 40S subunit protein S1B|S1e|S1B|L000001665	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YML097C	GCN4	VPS9	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	VPL31|VPT9|guanine nucleotide exchange factor VPS9|L000002659	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR011W	GCN4	HXT2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	hexose transporter HXT2|L000000836	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR026C	GCN4	PEX12	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	PAS11|ubiquitin-protein ligase peroxin 12|L000004223|L000003964	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR034C	GCN4	YMR034C	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR037C	GCN4	MSN2	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	stress-responsive transcriptional activator MSN2|L000001198	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR067C	GCN4	UBX4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	CUI1	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR100W	GCN4	MUB1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000004359	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR148W	GCN4	OSW5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR167W	GCN4	MLH1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	PMS2|mismatch repair ATPase MLH1|L000001121	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR224C	GCN4	MRE11	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	NGS1|RAD58|XRS4|MRX complex nuclease subunit|L000004732|L000001149|L000004275	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR238W	GCN4	DFG5	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	L000004072	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YMR300C	GCN4	ADE4	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	amidophosphoribosyltransferase|L000000034	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YNL071W	GCN4	LAT1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	ODP2|PDA2|dihydrolipoyllysine-residue acetyltransferase|L000000932|L000003242	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YNL094W	GCN4	APP1	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	phosphatidate phosphatase APP1	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
+YEL009C	YNL136W	GCN4	EAF7	AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4|L000000683	-	Negative Genetic	Costanzo M (2016)	27708008	559292	559292
